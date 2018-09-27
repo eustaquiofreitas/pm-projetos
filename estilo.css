@@ -1,0 +1,45 @@
+center{
+    width: 100%;
+}
+body{
+    background-color: #7DD2EA;
+    text-align: center;
+}
+form{
+    background-color: #3892AB;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    margin: 0;
+    color: aqua;
+    width: 350px;
+    border-radius: 11px;
+}
+.titulo{
+    padding-top: 200px;
+    margin: 0;
+    color: black;
+}
+h1{
+    color: black;
+    text-shadow: 1px 1px 0 white;
+}
+h4{
+    color: black;
+    padding: 1px 0 0 0;
+    margin: 0;
+    text-shadow: 1px 1px 0 white;
+}
+.botao{
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px black;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}

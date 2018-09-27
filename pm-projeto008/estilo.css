@@ -1,0 +1,205 @@
+/*-----------------------------layout------------------------------------*/
+body{
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+section#caixaPrincipal{
+    width: 100%;
+}
+section#caixaPrincipal header{
+    height: 60px;
+    background-color: #242536;
+    text-align: right;
+    line-height: 80px;
+    padding-right: 20px
+}
+section#caixaPrincipal .caixaModulo .caixaAbas{
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 2px solid #e7e7e7;
+}
+section#caixaPrincipal .caixaModulo .caixaAbas ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    margin:0 20px;
+}
+section#caixaPrincipal .caixaModulo .caixaAbas ul{
+    margin-top: 0;
+}
+section#caixaPrincipal .caixaModulo .caixaAbas ul li:hover{
+    border-bottom: 2px solid #ffb946;
+}
+section#caixaPrincipal .caixaModulo .caixaAbas ul li a{
+    text-decoration: none;
+    color: #ffb946;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario{
+    height: 885px;
+    padding: 20px;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento{
+    background-color: #fff;
+    border: 2px solid #e7e7e7;
+    padding-left: 30px;
+    height: 885px;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaCadastro p.confima{
+    background-image: url(confirma.png);
+    background-repeat: no-repeat;
+    background-position: top 20px right;
+    width: 430px
+}
+
+
+/*---------------------------Configuração Menu Lateral----------------------------------*/
+aside#menuLateral{
+    width: 200px;
+    height: 1030px;
+    background-color: #242536;
+}
+aside#menuLateral h1{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #141524;
+    margin: 0;
+    height: 60px;
+}
+aside#menuLateral h1 span{
+    visibility: hidden;
+}
+aside#menuLateral img{
+    padding-right: 5px;
+}
+aside#menuLateral ul li small{
+    opacity: 0.6;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+}
+aside#menuLateral ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+} 
+aside#menuLateral ul li a small{
+    float: right;
+    line-height: 50px;
+    padding-right: 10px
+}
+aside#menuLateral ul li{
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    line-height: 50px;
+}
+aside#menuLateral ul li:hover{
+    background-color: #151524;
+    border-left: 4px solid #ffb946;
+    margin: 0;
+}
+aside#menuLateral ul{
+    margin-left: 5px;
+    padding: 0;
+    margin-top: 0;
+}
+/*---------------------------Formulário------------------------------*/
+
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento  input{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento #caixaPais{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    background-image: url(botao.png);
+    background-repeat: no-repeat;
+    background-position:  center right 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    opacity: ;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento h2{
+   color: #161616;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento p{
+    width: 385px;
+    height: 28px;
+    color: #000000;
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaCadastro{
+    margin-top: 40px;
+    padding-bottom: 60px
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaSenha{
+    padding-bottom: 60px
+}
+::-webkit-input-placeholder{
+    color: #c5c5c5;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaSalvar .marcar{
+    display: flex;
+    width: 400px;
+    height:30px;
+    line-height: 10px
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaSalvar .marcar input{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+section#caixaPrincipal .caixaModulo .caixaFormulario .caixaPreencimento .caixaSalvar .botao{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #3aca60;
+    text-align: center;
+    margin: 30px;
+    margin-left: 0;
+    color: #fff;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+
+
+
+

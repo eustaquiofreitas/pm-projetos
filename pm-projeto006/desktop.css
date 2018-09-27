@@ -1,0 +1,49 @@
+
+body{
+    padding: 10px;
+}
+.cartao img {
+    width: 100%;
+    padding-right: 20px;
+    border: 1px solid  black;
+
+}
+h1{
+    text-align: center;
+    background-image: url("../img/imgLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    padding-bottom: 45px;
+    margin: 0;
+}
+h1 span{
+    visibility: hidden;
+}
+.cartao h2{
+    width: 300px;
+    height: 24px;
+    color: #4a4a4a;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+@media(min-width: 500px){
+    .container{
+        width: 960px;
+        margin: 0 auto
+    }
+    .cartao{
+        width: 300px;
+        float: left;
+        padding-right: 20px;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+        margin: 20px 0 20px 0;
+    }
+}

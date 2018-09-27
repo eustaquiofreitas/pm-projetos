@@ -1,0 +1,45 @@
+.container .principal{
+    background-color: #fff;
+    padding: 15px 25px;
+}
+.container .principal .titulo{
+    color: #d0021b;
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 2px solid #d0021b;
+    text-align: left;
+    margin-bottom: 20px
+
+}
+.container .principal .table tr td{
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    width: 70%;
+}
+.container .principal .table tr th{
+    color: #3a3c40;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 30%;
+}
+
+.container .principal .table tr th span{
+   color: #3a3c40;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+.container .principal p{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+    text-indent: 20px;
+    text-align: justify
+}

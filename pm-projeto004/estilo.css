@@ -1,0 +1,48 @@
+.menu{
+	padding: 0;
+	margin: 0;
+}
+li{
+	background-color: #4a4a4a;
+	list-style-type: none;
+	padding: 60px 200px 60px 100px;
+	margin-bottom: 3px;
+	background-image: url("realizarTarefa.png");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	cursor: url("setaMouse.png");
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Oswald';
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block;
+	background-image: url("marcacao.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: url("setaMouse.png"),default;
+}
+li.tarefaConcuida{
+	background-color: #27ae60;
+	background-image: url("realizarTarefa.png");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	cursor: url("setaMouse.png"),default;
+}
+li:hover{
+	background-color: rgb(74, 73, 74, 0.8);
+	list-style-type: none;
+	padding: 60px 200px 60px 100px;
+	margin-bottom: 3px;
+	background-image: url("realizarTarefa.png");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+}
+li.tarefaConcuida:hover{
+	background-color: rgba(39, 174, 95, 0.8);
+    background-image: url(concluido.png);
+}

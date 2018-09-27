@@ -1,0 +1,215 @@
+body{
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/*-- ---------------------botão--------------------*/
+.botao{
+    background-color: #ff3d7f;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 15px 0;
+    margin-top: 20px;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    text-align: center;
+}
+/*--------------------topo-----------------------*/
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    margin: 0;
+     background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top: 10px;
+}
+header{
+    margin-bottom: -90px;
+}
+header  span{
+    visibility: hidden;
+}
+header nav ul{
+    padding-right: 80px;
+    margin: 0;
+    margin-top: 20px;
+}
+header nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px
+}
+header nav li:last-child{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+section#topo{
+    background-image: url("../img/conheca.png");
+    background-size: cover;
+    height: 700px;
+}
+
+section#topo .container .chamada{
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+section#topo .container .chamada h2{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px
+}
+section#topo .container .chamada p{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 10px
+}
+
+/*--------------------------------Conheça-----------*/
+
+section#conheca{
+    padding: 70px;
+}
+section#conheca .texto{
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+section#conheca .texto h2{
+    font-size: 36px;
+
+}
+section#conheca .texto p{
+    font-size: 24px;
+    font-weight: 300;
+}
+section#conheca .texto a{
+    width: 60%;
+    font-size: 30px;
+    
+}
+
+/* -------------Depoimento---------------*/
+section#depoimento{
+    background-color: #ebe8fb;
+    border-top: 4px solid #511099;
+}
+section#depoimento .container{
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 60ps;
+}
+section#depoimento  img{
+    width: 151px;
+    height: 150px;
+    margin: 0 auto;
+}
+section#depoimento .container p{
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* ------------------------------ contato ---------------------*/
+section#convite {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("../img/fundoMensagem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
+}
+section#convite .container form{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 55%;
+    border-radius: 3px;
+    display: flex;    
+}
+section#convite .container input{
+    padding: 30px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+section#convite .container button{
+    margin-top: 20px;
+    margin-right: 20px;
+    background-image: url("../img/mensagem.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 110px;
+    height: 43px;
+
+}
+section#convite .container span{
+    visibility: hidden;
+}
+/*--------------------------Rodapé--------------*/
+
+footer{
+    background-color: #2a0157;
+    border-top: 4px solid #fff;
+}
+footer .container  .rodape{
+    font-family: Lato;
+    font-size: 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+
+
+
+
+
+@media (max-width: 600px){
+    header nav{
+        display: none;
+    }
+    header h1{
+        margin-left: 20px;
+    }
+    section#topo{
+        padding: 40px;
+    }
+    section#conheca .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    section#conheca .container .texto{
+        padding: 10px;
+    }
+    section#conheca .container .texto a{
+       width: 80%;
+    }
+    section#convite .container form{
+        display: block;
+        text-align: center;
+    }
+}
